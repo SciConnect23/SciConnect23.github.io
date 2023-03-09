@@ -1,0 +1,94 @@
+@media screen and (max-width: 775px) {
+  .header-one{
+    text-align: center;
+  }
+
+  #headerDiv{
+    padding: 1.5em;
+    margin: auto;
+    width: 90% ;
+  }
+  #headerDiv .lead{
+    font-size: 1.1em !important;
+    padding: 0;
+    text-align: center;
+  }
+
+  #headerDiv #aboutBtn{
+    width: 30% ;
+    padding: 10px !important;
+  }
+  #headerDiv h2{
+    font-size: 2.8em !important;
+  }
+  #headerDiv h5{
+    font-size: 4vw !important;
+  }
+
+ #about .about{
+  width: 80% ;
+
+ }
+
+ .about .section-title{
+  font-size: 2.67em !important;
+ }
+
+ .about .lead{
+  font-size: 1.1em !important;
+  text-align: justify;
+
+ }
+}
+
+@media screen and (max-width: 560px){
+  #headerDiv{
+    width: 90% !important;
+
+  }
+  #headerDiv #aboutBtn{
+    width: 50% !important;
+  }
+  #headerDiv > h2{
+    font-size: 8vw !important;
+  }
+
+  #headerDiv h5{
+    font-size: 4vw !important;
+  }
+
+  #about .about{
+    width: 80% ;
+  
+   }
+  
+   .about .section-title{
+    font-size: 2.35em !important;
+   }
+  
+   .about .lead{
+    font-size: 1.1em !important;
+    text-align: justify;
+   }
+}
+
+
+@media screen and (max-width:780px) {
+  .img-container{
+    display: none;
+  }
+
+  #headerDiv{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  #headerDiv #aboutBtn{
+    margin: 1em auto;
+  }
+  
+  #headerDiv .lead{
+    font-size: 1vh;
+  }
+
+}
